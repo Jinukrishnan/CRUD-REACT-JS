@@ -8,6 +8,7 @@ export async function setData(req,res){
     // console.log(req.body);
     try {
         const {name,email,age,mobile,work,add,desc}=req.body; 
+        console.log(name,email,age,mobile,work,add,desc);
         // console.log(name,email,age,mobile,work,add,desc);
         // if(!(name && email && age && mobile && work && add && desc))
         // {
@@ -19,7 +20,7 @@ export async function setData(req,res){
         //     res.status(404).send("user already present");
         // }
         // else{
-        //     // adduser=new useres({name,email,age,mobile,work,add,desc})
+            // adduser=new useres({name,email,age,mobile,work,add,desc})
          
         // }
         // await adduser.save();
